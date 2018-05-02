@@ -1,0 +1,10 @@
+title: artBangall
+# tagline: ""
+url: "https://artbangall.com"
+
+socialimg: /img/social.png
+
+sass:
+ style: compressed
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]

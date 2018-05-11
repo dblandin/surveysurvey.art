@@ -33,7 +33,7 @@ fulltitle: "artBangall"
       {% for artist in site.data.artists %}
         <li>
           {% if artist.url %}
-            <a href="{{ artist.url }}" >{{ artist.name }}</a>
+            <a href="{{ artist.url }}" target="_blank">{{ artist.name }}</a>
           {% else %}
           {{ artist.name }}
           {% endif %}

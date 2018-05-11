@@ -1,6 +1,11 @@
 title: artBangall
-# tagline: ""
-url: "https://artbangall.com"
+
+tagline: >
+  artBangall is a pop-up exhibition opening on Saturday, June 2nd, in the hamlet
+  of Bangall in the Hudson Valley. The show will feature artwork by thirty five
+  emerging artists and take place in a vacant former restaurant.
+
+url: https://artbangall.com
 
 socialimg: /img/social.jpg
 

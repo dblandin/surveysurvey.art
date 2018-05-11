@@ -30,41 +30,15 @@ fulltitle: "artBangall"
     </p>
 
     <ul class="columns">
-      <li>Alberto Casais</li>
-      <li>Aliza Morell</li>
-      <li>Amy Butowicz</li>
-      <li>Anna Topuriya</li>
-      <li>Anthony Cudahy</li>
-      <li>Benjamin Lankton</li>
-      <li>Christopher Roberson</li>
-      <li>Emma Ressel</li>
-      <li>Evan Paul English</li>
-      <li>Frederick Greis</li>
-      <li>Jeff Conefry</li>
-      <li>Jordan Artim</li>
-      <li>Kate Manire</li>
-      <li>Katrina Slavik</li>
-      <li>Keenan Bennett</li>
-      <li>Lena Schmid</li>
-      <li>Lindsay Burke</li>
-      <li>Madhini Nirmal</li>
-      <li>Mary Nelson Sinclair</li>
-      <li>Matthew Woodward</li>
-      <li>Naomi Nakazato</li>
-      <li>Naudline Pierre</li>
-      <li>Nicole Dyer</li>
-      <li>Nicole Mouriño</li>
-      <li>Nikki Mehle</li>
-      <li>Phoebe Grip</li>
-      <li>Rosie Lopeman</li>
-      <li>Ryan Till</li>
-      <li>Sarah Creagen</li>
-      <li>Sarah Mullin</li>
-      <li>Staver Klitgaard</li>
-      <li>Steve Johnson</li>
-      <li>Tania Alvarez</li>
-      <li>Talia Levitt</li>
-      <li>Will Hutnick</li>
+      {% for artist in site.data.artists %}
+        <li>
+          {% if artist.url %}
+            <a href="{{ artist.url }}" >{{ artist.name }}</a>
+          {% else %}
+          {{ artist.name }}
+          {% endif %}
+        </li>
+      {% endfor %}
     </ul>
   </div>
 

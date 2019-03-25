@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{142:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),o=t(144),d=t.n(o);n.default=function(){return c.a.createElement("div",null,c.a.createElement("img",{src:d.a,alt:"Logo"}))}},144:function(e,n,t){e.exports=t.p+"static/logo-a24ccb91fe2d56d5c624ade8dba8d30e.png"}}]);
+//# sourceMappingURL=component---src-pages-index-js-12ada095e294d91f44ef.js.map

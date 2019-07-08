@@ -1,16 +1,7 @@
-# artBangall
-
-June 2-16
-
-**Opening Reception**
-
-June 2, 2018
-2-8pm
-
-**Curated By**
+# Survey Survey
 
 Amanda Brown & Stephanie Del Carpio
 
 **Contact**
 
-info@artbangall.com
+info@surveysurvey.art
